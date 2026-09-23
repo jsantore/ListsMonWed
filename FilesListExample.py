@@ -8,4 +8,4 @@ for line in lines_in_file:
     copies_sold = int(game_info[3])
     revenue = price * copies_sold
     game_name = game_info[0]
-    print(f"{game_name} earned ${revenue}")
+    print(f"{game_info[0]} earned ${revenue}")
